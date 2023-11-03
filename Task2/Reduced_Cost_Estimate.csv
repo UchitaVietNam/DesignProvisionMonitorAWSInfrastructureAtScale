@@ -1,0 +1,32 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,5614.5,67374.00,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Reduced_Cost_Estimate02,US East (N. Virginia),,Amazon Route 53,0,183,2196.00,USD,,"Hosted Zones (1), Number of Elastic Network Interfaces (2)"
+Reduced_Cost_Estimate02,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+Reduced_Cost_Estimate02,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,157.86,1894.32,USD,,Number of NAT Gateways (2)
+Reduced_Cost_Estimate02,US East (N. Virginia),,Application Load Balancer,0,441.65000000000003,5299.80,USD,,Number of Application Load Balancers (2)
+Reduced_Cost_Estimate02,US East (N. Virginia),,Amazon CloudWatch,0,0,0.00,USD,,
+Reduced_Cost_Estimate02,US East (N. Virginia),,Amazon EC2 ,0,765.04,9180.48,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (r5.xlarge), Pricing strategy ( 3 Year  None upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Reduced_Cost_Estimate02,US East (N. Virginia),,AWS Data Transfer,0,0,0.00,USD,,"DT Inbound: Internet (1 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Reduced_Cost_Estimate02,US East (N. Virginia),,Amazon RDS for MySQL,0,4043.4,48520.80,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (2), Instance type (db.m2.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+Reduced_Cost_Estimate02,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,,"Number of EC2 instances (8), Number of EIPs per instance (1)"
+Reduced_Cost_Estimate02,US East (N. Virginia),,S3 Standard,0,23.55,282.60,USD,,S3 Standard storage (1 TB per month)
+Reduced_Cost_Estimate02,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+a brief narrative of the changes
+About EC2 : Change the Payment options from On-Demand to Compute Savings Plans  1 year and change instance type to r5.xlarge
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
